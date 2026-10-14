@@ -1,0 +1,146 @@
+timestamp,people_detected,average_confidence,priority,status,recommended_action
+2026-10-11T15:49:29+05:30,1,0.950,NORMAL,PERSON_DETECTED,Review detection and continue monitoring
+2026-10-11T16:21:56+05:30,1,0.794,NORMAL,PERSON_DETECTED,Review detection and continue monitoring
+2026-10-11T16:21:56+05:30,0,0.000,NONE,NO_PERSON_DETECTED,Continue monitoring
+2026-10-11T16:21:56+05:30,1,0.416,NORMAL,PERSON_DETECTED,Review detection and continue monitoring
+2026-10-11T16:21:56+05:30,0,0.000,NONE,NO_PERSON_DETECTED,Continue monitoring
+2026-10-11T16:21:57+05:30,1,0.538,NORMAL,PERSON_DETECTED,Review detection and continue monitoring
+2026-10-11T16:21:57+05:30,0,0.000,NONE,NO_PERSON_DETECTED,Continue monitoring
+2026-10-11T16:21:57+05:30,1,0.413,NORMAL,PERSON_DETECTED,Review detection and continue monitoring
+2026-10-11T16:21:57+05:30,0,0.000,NONE,NO_PERSON_DETECTED,Continue monitoring
+2026-10-11T16:21:57+05:30,1,0.516,NORMAL,PERSON_DETECTED,Review detection and continue monitoring
+2026-10-11T16:21:57+05:30,0,0.000,NONE,NO_PERSON_DETECTED,Continue monitoring
+2026-10-11T16:21:57+05:30,1,0.506,NORMAL,PERSON_DETECTED,Review detection and continue monitoring
+2026-10-11T16:21:58+05:30,0,0.000,NONE,NO_PERSON_DETECTED,Continue monitoring
+2026-10-11T16:21:58+05:30,1,0.463,NORMAL,PERSON_DETECTED,Review detection and continue monitoring
+2026-10-11T16:22:01+05:30,0,0.000,NONE,NO_PERSON_DETECTED,Continue monitoring
+2026-10-11T16:22:01+05:30,1,0.482,NORMAL,PERSON_DETECTED,Review detection and continue monitoring
+2026-10-11T16:22:01+05:30,2,0.540,NORMAL,PERSON_DETECTED,Review detection and continue monitoring
+2026-10-11T16:22:01+05:30,1,0.532,NORMAL,PERSON_DETECTED,Review detection and continue monitoring
+2026-10-11T16:22:01+05:30,2,0.554,NORMAL,PERSON_DETECTED,Review detection and continue monitoring
+2026-10-11T16:22:01+05:30,1,0.736,NORMAL,PERSON_DETECTED,Review detection and continue monitoring
+2026-10-11T16:22:01+05:30,2,0.566,NORMAL,PERSON_DETECTED,Review detection and continue monitoring
+2026-10-11T16:22:01+05:30,1,0.761,NORMAL,PERSON_DETECTED,Review detection and continue monitoring
+2026-10-11T16:22:02+05:30,2,0.609,NORMAL,PERSON_DETECTED,Review detection and continue monitoring
+2026-10-11T16:22:02+05:30,1,0.804,NORMAL,PERSON_DETECTED,Review detection and continue monitoring
+2026-10-11T16:22:02+05:30,2,0.611,NORMAL,PERSON_DETECTED,Review detection and continue monitoring
+2026-10-11T16:22:03+05:30,1,0.784,NORMAL,PERSON_DETECTED,Review detection and continue monitoring
+2026-10-11T16:22:03+05:30,2,0.648,NORMAL,PERSON_DETECTED,Review detection and continue monitoring
+2026-10-11T16:22:03+05:30,3,0.549,HIGH,PERSON_DETECTED,Flag for operator review
+2026-10-11T16:22:03+05:30,2,0.611,NORMAL,PERSON_DETECTED,Review detection and continue monitoring
+2026-10-11T16:22:03+05:30,1,0.514,NORMAL,PERSON_DETECTED,Review detection and continue monitoring
+2026-10-11T16:22:21+05:30,1,0.818,NORMAL,PERSON_DETECTED,Review detection and continue monitoring
+2026-10-11T16:22:22+05:30,2,0.640,NORMAL,PERSON_DETECTED,Review detection and continue monitoring
+2026-10-11T16:22:22+05:30,1,0.720,NORMAL,PERSON_DETECTED,Review detection and continue monitoring
+2026-10-11T16:22:27+05:30,2,0.701,NORMAL,PERSON_DETECTED,Review detection and continue monitoring
+2026-10-11T16:22:27+05:30,1,0.761,NORMAL,PERSON_DETECTED,Review detection and continue monitoring
+2026-10-11T16:22:27+05:30,0,0.000,NONE,NO_PERSON_DETECTED,Continue monitoring
+2026-10-11T16:22:27+05:30,1,0.597,NORMAL,PERSON_DETECTED,Review detection and continue monitoring
+2026-10-11T16:22:28+05:30,0,0.000,NONE,NO_PERSON_DETECTED,Continue monitoring
+2026-10-11T16:22:28+05:30,1,0.450,NORMAL,PERSON_DETECTED,Review detection and continue monitoring
+2026-10-11T16:22:28+05:30,0,0.000,NONE,NO_PERSON_DETECTED,Continue monitoring
+2026-10-11T16:22:28+05:30,2,0.559,NORMAL,PERSON_DETECTED,Review detection and continue monitoring
+2026-10-11T16:22:28+05:30,1,0.511,NORMAL,PERSON_DETECTED,Review detection and continue monitoring
+2026-10-11T16:22:29+05:30,0,0.000,NONE,NO_PERSON_DETECTED,Continue monitoring
+2026-10-11T16:22:29+05:30,1,0.536,NORMAL,PERSON_DETECTED,Review detection and continue monitoring
+2026-10-11T16:22:29+05:30,0,0.000,NONE,NO_PERSON_DETECTED,Continue monitoring
+2026-10-11T16:22:30+05:30,1,0.465,NORMAL,PERSON_DETECTED,Review detection and continue monitoring
+2026-10-11T16:22:31+05:30,0,0.000,NONE,NO_PERSON_DETECTED,Continue monitoring
+2026-10-11T16:22:31+05:30,1,0.414,NORMAL,PERSON_DETECTED,Review detection and continue monitoring
+2026-10-11T16:22:32+05:30,0,0.000,NONE,NO_PERSON_DETECTED,Continue monitoring
+2026-10-11T16:22:32+05:30,1,0.418,NORMAL,PERSON_DETECTED,Review detection and continue monitoring
+2026-10-11T16:22:32+05:30,2,0.552,NORMAL,PERSON_DETECTED,Review detection and continue monitoring
+2026-10-11T16:22:32+05:30,1,0.525,NORMAL,PERSON_DETECTED,Review detection and continue monitoring
+2026-10-11T16:22:33+05:30,0,0.000,NONE,NO_PERSON_DETECTED,Continue monitoring
+2026-10-11T16:22:33+05:30,1,0.511,NORMAL,PERSON_DETECTED,Review detection and continue monitoring
+2026-10-11T16:22:33+05:30,2,0.560,NORMAL,PERSON_DETECTED,Review detection and continue monitoring
+2026-10-11T16:22:33+05:30,1,0.427,NORMAL,PERSON_DETECTED,Review detection and continue monitoring
+2026-10-11T16:22:34+05:30,0,0.000,NONE,NO_PERSON_DETECTED,Continue monitoring
+2026-10-11T16:22:34+05:30,2,0.482,NORMAL,PERSON_DETECTED,Review detection and continue monitoring
+2026-10-11T16:22:34+05:30,1,0.437,NORMAL,PERSON_DETECTED,Review detection and continue monitoring
+2026-10-11T16:22:34+05:30,0,0.000,NONE,NO_PERSON_DETECTED,Continue monitoring
+2026-10-11T16:22:34+05:30,1,0.420,NORMAL,PERSON_DETECTED,Review detection and continue monitoring
+2026-10-11T16:22:34+05:30,0,0.000,NONE,NO_PERSON_DETECTED,Continue monitoring
+2026-10-11T16:22:34+05:30,1,0.460,NORMAL,PERSON_DETECTED,Review detection and continue monitoring
+2026-10-11T22:36:40+05:30,1,0.908,NORMAL,PERSON_DETECTED,Review detection and continue monitoring
+2026-10-11T22:36:42+05:30,2,0.679,NORMAL,PERSON_DETECTED,Review detection and continue monitoring
+2026-10-11T22:36:44+05:30,1,0.839,NORMAL,PERSON_DETECTED,Review detection and continue monitoring
+2026-10-11T22:36:44+05:30,2,0.645,NORMAL,PERSON_DETECTED,Review detection and continue monitoring
+2026-10-11T22:36:44+05:30,1,0.847,NORMAL,PERSON_DETECTED,Review detection and continue monitoring
+2026-10-11T22:36:44+05:30,2,0.691,NORMAL,PERSON_DETECTED,Review detection and continue monitoring
+2026-10-11T22:36:44+05:30,1,0.828,NORMAL,PERSON_DETECTED,Review detection and continue monitoring
+2026-10-11T22:36:44+05:30,2,0.674,NORMAL,PERSON_DETECTED,Review detection and continue monitoring
+2026-10-11T22:36:44+05:30,1,0.484,NORMAL,PERSON_DETECTED,Review detection and continue monitoring
+2026-10-11T22:36:46+05:30,0,0.000,NONE,NO_PERSON_DETECTED,Continue monitoring
+2026-10-11T22:36:46+05:30,1,0.615,NORMAL,PERSON_DETECTED,Review detection and continue monitoring
+2026-10-11T22:36:46+05:30,0,0.000,NONE,NO_PERSON_DETECTED,Continue monitoring
+2026-10-11T22:36:46+05:30,2,0.588,NORMAL,PERSON_DETECTED,Review detection and continue monitoring
+2026-10-11T22:36:46+05:30,1,0.765,NORMAL,PERSON_DETECTED,Review detection and continue monitoring
+2026-10-11T22:36:48+05:30,0,0.000,NONE,NO_PERSON_DETECTED,Continue monitoring
+2026-10-11T22:36:48+05:30,2,0.668,NORMAL,PERSON_DETECTED,Review detection and continue monitoring
+2026-10-11T22:36:48+05:30,1,0.694,NORMAL,PERSON_DETECTED,Review detection and continue monitoring
+2026-10-11T22:36:48+05:30,2,0.747,NORMAL,PERSON_DETECTED,Review detection and continue monitoring
+2026-10-11T22:36:49+05:30,1,0.885,NORMAL,PERSON_DETECTED,Review detection and continue monitoring
+2026-10-11T22:36:51+05:30,2,0.688,NORMAL,PERSON_DETECTED,Review detection and continue monitoring
+2026-10-11T22:36:51+05:30,1,0.684,NORMAL,PERSON_DETECTED,Review detection and continue monitoring
+2026-10-11T22:36:51+05:30,0,0.000,NONE,NO_PERSON_DETECTED,Continue monitoring
+2026-10-11T22:36:52+05:30,1,0.521,NORMAL,PERSON_DETECTED,Review detection and continue monitoring
+2026-10-11T22:36:52+05:30,0,0.000,NONE,NO_PERSON_DETECTED,Continue monitoring
+2026-10-11T22:36:52+05:30,1,0.654,NORMAL,PERSON_DETECTED,Review detection and continue monitoring
+2026-10-11T22:36:53+05:30,2,0.593,NORMAL,PERSON_DETECTED,Review detection and continue monitoring
+2026-10-11T22:36:53+05:30,1,0.698,NORMAL,PERSON_DETECTED,Review detection and continue monitoring
+2026-10-11T22:36:53+05:30,2,0.539,NORMAL,PERSON_DETECTED,Review detection and continue monitoring
+2026-10-11T22:36:53+05:30,3,0.532,HIGH,PERSON_DETECTED,Flag for operator review
+2026-10-11T22:36:53+05:30,2,0.546,NORMAL,PERSON_DETECTED,Review detection and continue monitoring
+2026-10-11T22:36:53+05:30,3,0.512,HIGH,PERSON_DETECTED,Flag for operator review
+2026-10-11T22:36:53+05:30,1,0.622,NORMAL,PERSON_DETECTED,Review detection and continue monitoring
+2026-10-11T22:36:53+05:30,2,0.565,NORMAL,PERSON_DETECTED,Review detection and continue monitoring
+2026-10-11T22:36:53+05:30,1,0.759,NORMAL,PERSON_DETECTED,Review detection and continue monitoring
+2026-10-11T22:36:53+05:30,2,0.678,NORMAL,PERSON_DETECTED,Review detection and continue monitoring
+2026-10-11T22:36:54+05:30,1,0.516,NORMAL,PERSON_DETECTED,Review detection and continue monitoring
+2026-10-11T22:36:54+05:30,0,0.000,NONE,NO_PERSON_DETECTED,Continue monitoring
+2026-10-11T22:36:54+05:30,1,0.504,NORMAL,PERSON_DETECTED,Review detection and continue monitoring
+2026-10-11T22:36:54+05:30,2,0.418,NORMAL,PERSON_DETECTED,Review detection and continue monitoring
+2026-10-11T22:36:55+05:30,3,0.605,HIGH,PERSON_DETECTED,Flag for operator review
+2026-10-11T22:36:55+05:30,2,0.602,NORMAL,PERSON_DETECTED,Review detection and continue monitoring
+2026-10-11T22:36:55+05:30,3,0.570,HIGH,PERSON_DETECTED,Flag for operator review
+2026-10-11T22:36:55+05:30,2,0.613,NORMAL,PERSON_DETECTED,Review detection and continue monitoring
+2026-10-11T22:36:55+05:30,1,0.741,NORMAL,PERSON_DETECTED,Review detection and continue monitoring
+2026-10-11T22:36:55+05:30,2,0.550,NORMAL,PERSON_DETECTED,Review detection and continue monitoring
+2026-10-11T22:36:55+05:30,1,0.423,NORMAL,PERSON_DETECTED,Review detection and continue monitoring
+2026-10-11T22:36:56+05:30,0,0.000,NONE,NO_PERSON_DETECTED,Continue monitoring
+2026-10-11T22:36:56+05:30,1,0.883,NORMAL,PERSON_DETECTED,Review detection and continue monitoring
+2026-10-11T22:36:56+05:30,2,0.540,NORMAL,PERSON_DETECTED,Review detection and continue monitoring
+2026-10-11T22:36:56+05:30,1,0.846,NORMAL,PERSON_DETECTED,Review detection and continue monitoring
+2026-10-11T22:36:56+05:30,2,0.618,NORMAL,PERSON_DETECTED,Review detection and continue monitoring
+2026-10-11T22:36:57+05:30,1,0.699,NORMAL,PERSON_DETECTED,Review detection and continue monitoring
+2026-10-11T22:41:17+05:30,1,0.912,NORMAL,PERSON_DETECTED,Review detection and continue monitoring
+2026-10-11T22:41:20+05:30,2,0.587,NORMAL,PERSON_DETECTED,Review detection and continue monitoring
+2026-10-11T22:41:20+05:30,1,0.801,NORMAL,PERSON_DETECTED,Review detection and continue monitoring
+2026-10-11T22:41:20+05:30,0,0.000,NONE,NO_PERSON_DETECTED,Continue monitoring
+2026-10-11T22:41:20+05:30,1,0.854,NORMAL,PERSON_DETECTED,Review detection and continue monitoring
+2026-10-12T12:55:58+05:30,1,0.947,NORMAL,PERSON_DETECTED,Review detection and continue monitoring
+2026-10-12T12:56:01+05:30,0,0.000,NONE,NO_PERSON_DETECTED,Continue monitoring
+2026-10-12T12:56:02+05:30,1,0.790,NORMAL,PERSON_DETECTED,Review detection and continue monitoring
+2026-10-12T12:56:02+05:30,2,0.630,NORMAL,PERSON_DETECTED,Review detection and continue monitoring
+2026-10-12T12:56:02+05:30,3,0.697,HIGH,PERSON_DETECTED,Flag for operator review
+2026-10-12T12:56:02+05:30,2,0.747,NORMAL,PERSON_DETECTED,Review detection and continue monitoring
+2026-10-12T12:56:02+05:30,1,0.840,NORMAL,PERSON_DETECTED,Review detection and continue monitoring
+2026-10-12T12:56:02+05:30,3,0.595,HIGH,PERSON_DETECTED,Flag for operator review
+2026-10-12T12:56:02+05:30,2,0.765,NORMAL,PERSON_DETECTED,Review detection and continue monitoring
+2026-10-12T12:56:03+05:30,1,0.874,NORMAL,PERSON_DETECTED,Review detection and continue monitoring
+2026-10-12T12:56:08+05:30,1,0.896,NORMAL,PERSON_DETECTED,Review detection and continue monitoring
+2026-10-12T12:56:13+05:30,1,0.933,NORMAL,PERSON_DETECTED,Review detection and continue monitoring
+2026-10-14T20:06:06+05:30,1,0.926,NORMAL,PERSON_DETECTED,Review detection and continue monitoring
+2026-10-14T20:06:27+05:30,1,0.911,NORMAL,PERSON_DETECTED,Review detection and continue monitoring
+2026-10-14T20:06:32+05:30,1,0.935,NORMAL,PERSON_DETECTED,Review detection and continue monitoring
+2026-10-14T20:06:36+05:30,2,0.595,NORMAL,PERSON_DETECTED,Review detection and continue monitoring
+2026-10-14T20:06:36+05:30,1,0.871,NORMAL,PERSON_DETECTED,Review detection and continue monitoring
+2026-10-14T20:06:36+05:30,2,0.506,NORMAL,PERSON_DETECTED,Review detection and continue monitoring
+2026-10-14T20:06:37+05:30,1,0.921,NORMAL,PERSON_DETECTED,Review detection and continue monitoring
+2026-10-14T20:06:41+05:30,2,0.513,NORMAL,PERSON_DETECTED,Review detection and continue monitoring
+2026-10-14T20:06:41+05:30,1,0.563,NORMAL,PERSON_DETECTED,Review detection and continue monitoring
+2026-10-14T20:06:41+05:30,0,0.000,NONE,NO_PERSON_DETECTED,Continue monitoring
+2026-10-14T20:06:42+05:30,1,0.905,NORMAL,PERSON_DETECTED,Review detection and continue monitoring
+2026-10-14T20:06:47+05:30,1,0.925,NORMAL,PERSON_DETECTED,Review detection and continue monitoring
+2026-10-14T20:06:52+05:30,1,0.928,NORMAL,PERSON_DETECTED,Review detection and continue monitoring

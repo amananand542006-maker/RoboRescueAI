@@ -1,0 +1,12 @@
+{
+  "timestamp": "2026-10-14T20:06:57.061269+05:30",
+  "people_detected": 1,
+  "tracking_ids": [
+    1
+  ],
+  "confidence_scores": [
+    0.9277657866477966
+  ],
+  "source": "yolo_bytetrack",
+  "coordinates_available": false
+}
