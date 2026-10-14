@@ -1,101 +1,128 @@
 # RoboRescueAI
 
-An AI-powered person detection and tracking system designed to support rescue monitoring and situational awareness.
+RoboRescueAI is an experimental computer-vision prototype for detecting and
+tracking people in camera footage. It combines YOLO, OpenCV, and ByteTrack
+with basic rescue-priority assessments, CSV logs, a Streamlit dashboard, and a
+simple simulation.
+
+> **Important:** This project is for learning and demonstration only. It is
+> not a validated emergency-response system and must not be used as a
+> substitute for emergency services, trained responders, or safety equipment.
 
 ## Features
 
-- Person detection using YOLO.
-- Multi-object tracking using ByteTrack.
-- Live camera processing with OpenCV.
-- Tracking IDs and detection confidence scores.
-- Rescue intelligence and priority assessment.
-- CSV logging for detection and incident records.
-- JSON bridge for sharing the latest detection state.
-- Streamlit dashboard.
-- Experimental rescue simulation.
-
-## Technology Stack
-
-- Python
-- YOLO
-- ByteTrack
-- OpenCV
-- Streamlit
-- NumPy
-- CSV and JSON
-
-## Project Structure
-
-- `assets/` — Test images and other assets.
-- `dashboard/` — Streamlit dashboard.
-- `docs/` — Project documentation.
-- `output/` — Detection snapshots and generated logs.
-- `perception/` — Detection, tracking, and perception modules.
-- `tests/` — Automated tests.
-- `simulation.py` — Rescue simulation.
-- `yolo11n.pt` — YOLO model weights.
+- Detect people in images and live webcam video.
+- Track people across webcam frames and display tracking IDs.
+- Record detection events and basic operator-review recommendations.
+- Publish the latest tracking result as JSON for the dashboard.
+- View detection data in a Streamlit dashboard.
+- Run a basic rescue simulation.
 
 ## Requirements
 
-- Python 3.12 recommended.
-- A compatible webcam for live detection.
-- Required Python packages.
-- YOLO model weights.
+- Python 3.10 or newer.
+- A webcam for live detection and tracking.
+- macOS, Windows, or Linux. Camera access and OpenCV GUI support depend on
+  your system configuration.
 
-## Installation
+## Getting started
 
-Clone the repository:
+Clone your GitHub repository and enter the project directory:
 
-    git clone YOUR_GITHUB_REPOSITORY_URL
-    cd RoboRescueAI
+```bash
+git clone https://github.com/amananand542006-maker/RoboRescueAI.git
+cd RoboRescueAI
+```
 
-Create a virtual environment:
+Create and activate a virtual environment:
 
-    python3 -m venv .venv
-    source .venv/bin/activate
+```bash
+python3 -m venv .venv
+source .venv/bin/activate
+```
 
-Install the project dependencies before running the application.
+On Windows PowerShell, activate it with:
 
-## Run Person Detection
+```powershell
+.venv\Scripts\Activate.ps1
+```
 
-    python perception/person_detection.py
+Install the project dependencies:
 
-## Run Person Tracking
+```bash
+python -m pip install --upgrade pip
+python -m pip install ultralytics opencv-python streamlit pandas streamlit-autorefresh pygame
+```
 
-    python perception/person_tracking.py
+The repository includes the `yolo11n.pt` model file used by the detection and
+tracking scripts.
 
-Press Q in the camera window to stop tracking.
+## Run the application
 
-## Run the Dashboard
+Run person detection on an image:
 
-    python -m streamlit run dashboard/app.py
+```bash
+python perception/person_detection.py assets/images/rescue_test.jpg
+```
 
-Open the local address displayed in the Terminal.
+The annotated image is saved under `output/`.
 
-## Detection Bridge
+Run live webcam detection:
 
-The detection bridge publishes the latest detection snapshot to:
+```bash
+python perception/live_detection.py
+```
 
-    output/latest_detection.json
+Run webcam detection with person tracking:
 
-The snapshot includes a timestamp, detected-person count, tracking IDs, confidence scores, and source information.
+```bash
+python perception/person_tracking.py
+```
 
-The current webcam pipeline does not provide real-world coordinates.
+Press **Q** in the camera window to stop.
 
-## Logs
+Start the dashboard:
 
-The application can generate CSV records for person tracking, rescue detection assessments, and rescue incidents.
+```bash
+python -m streamlit run dashboard/app.py
+```
 
-## Safety and Limitations
+Open the local URL printed by Streamlit. The dashboard reads data from the
+project's `output/` directory; run detection or tracking to populate it.
 
-RoboRescueAI is an experimental prototype for person detection and rescue-monitoring research.
+Run the simulation:
 
-It does not replace trained rescue personnel, emergency services, or validated life-safety equipment. Detection results may be inaccurate or incomplete.
+```bash
+python simulation.py
+```
 
-## Future Improvements
+## Project layout
 
-- Improved real-time dashboard integration.
-- Spatial localization and mapping.
-- Additional automated tests.
-- Improved simulation and visualization.
-- Deployment and performance optimization.
+```text
+RoboRescueAI/
+├── assets/images/       # Sample image
+├── dashboard/           # Streamlit dashboard
+├── output/              # Generated logs, snapshots, and tracking data
+├── perception/          # Detection, tracking, and rescue-assessment code
+├── simulation.py        # Rescue simulation
+└── yolo11n.pt           # YOLO model weights
+```
+
+## Generated data
+
+Detection and tracking runs may create CSV logs, a JSON snapshot, and annotated
+images or video under `output/`. These files can change each time the scripts
+run. Review generated data before publishing it; do not commit private footage,
+personal information, or data you do not have permission to share.
+
+## Limitations
+
+Detection results can be inaccurate, incomplete, or affected by camera
+placement, lighting, and environmental conditions. The rescue-priority logic
+is a basic demonstration based on detections; it does not establish whether a
+person is injured or in danger. Always have a qualified human review results.
+
+## Contributing
+
+Improvements and bug reports are welcome. Please include steps to reproduce
+issues and avoid sharing sensitive footage or personal information.
